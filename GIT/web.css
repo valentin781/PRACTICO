@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color: #ffcd27;
+    
+    
+
+}
+
+.Buscar label{
+    font-family: sans-serif;
+
+}
+
+
+.Buscar {
+    position: absolute;
+    display: flex;
+    left: 500px;
+    top: 20px;
+    justify-content: center;
+    display: grid;
+}
+.Buscar ion-icon{
+    position: relative;
+    left: 410px;
+    top:-26.5px;
+    font-size: 25px;
+}
+.Buscar input{
+    display: flex;
+    
+    
+    background-color: #ffff;
+    width: 200%;
+    height: 30px;
+    border: none;
+    border: 2.5px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 200;
+    
+    
+    
+}
+
+.Logo{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    left: 50px;    
+
+}
+
+
+
+
+.inicio{
+    position: absolute;
+    display: flex;
+    top: 45px;
+    left: 1200px;
+    display: grid;
+
+
+}
+
+.inicio button{
+
+    background-color: azure;
+    border: 2px solid rgb(77, 77, 77);
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.inicio ion-icon{
+    position: absolute;
+    left: 35px;
+    top: -40px;
+    font-size: 40px;
+}
+
+
+.FONDO img{
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    clip-path: inset(20% 0 10% 0);
+    top: -51px;
+    
+    
+}
+
+.FONDO button{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    width: 170px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow:0 0 45px #ff3c00;
+    background-color: #ff3c00;
+}
+
+.FONDO label{
+    position: absolute;
+    left: 850px;
+    top: 215px;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+
+.FONDO h5{
+    position: absolute;
+    left: 850px;
+    top: 350px;
+    color: #ff2600;
+    -webkit-text-stroke-color:black ;
+    -webkit-text-stroke-width: 1px;
+    font-family: fantasy;
+    font-size:25px;
+}
+.FONDO button:not(:hover){
+    background: #258bff;
+    transition: all 2s ease-in-out ;
+    box-shadow: 0 0 50px#00eeff;
+    
+}
+
+
+.container{
+    position: relative;
+    width: 50%; 
+    height: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.container-2{
+    position: relative;
+    width: 50%; 
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease-out 1.7s;
+    cursor: pointer;
+    
+}
+
+.container-2 img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease-out 1.7s;
+    cursor: pointer;
+    
+}
+
+.container img:hover{
+    width: 20%;
+}
+
+.container-2 img:hover{
+    width: 20%;
+}
+
+.container img:not(:hover){
+    opacity: 80%;
+}
+
+.container-2 img:not(:hover){
+    opacity: 80%;
+}
+
+
+
+
+
+
